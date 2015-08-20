@@ -1,6 +1,6 @@
 {
   "name": "commonform-archaic",
-  "description": "annotate Common Forms with archaism",
+  "description": "annotate Common Forms containing archaism",
   "version": "0.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (http://kemitchell.com)",
   "dependencies": {
