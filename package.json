@@ -1,7 +1,7 @@
 {
   "name": "commonform-archaic",
   "description": "annotate Common Forms containing archaism",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (http://kemitchell.com)",
   "dependencies": {
     "american-legal-archaisms": "~1.0.4",
