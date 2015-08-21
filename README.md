@@ -3,12 +3,12 @@ var archaic = require('commonform-archaic')
 var assert = require('assert')
 
 assert.deepEqual(
-  archaic({ content: [ 'all rights thereof and whereof' ] }),
-  [ { message: '"thereof" is archaic',
+  archaic({ content: [ 'comes now the owner thereof' ] }),
+  [ { message: 'The phrase "comes now" is archaic.',
       path: [ 'content', 0 ],
       source: 'commonform-archaic',
       url: null },
-    { message: '"whereof" is archaic',
+    { message: 'The word "thereof" is archaic.',
       path: [ 'content', 0 ],
       source: 'commonform-archaic',
       url: null } ])
