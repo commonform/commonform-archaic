@@ -12,6 +12,9 @@
     "replace-require-self": "1.x",
     "standard": "^8.0.0"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "contracts",
     "document assembly",
