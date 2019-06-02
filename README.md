@@ -6,8 +6,8 @@ annotate [Common Forms](https://www.npmjs.com/package/commonform-validate) conta
 var archaic = require('commonform-archaic')
 var assert = require('assert')
 
-assert.deepEqual(
-  archaic({content: ['comes now the owner thereof']}),
+assert.deepStrictEqual(
+  archaic({ content: ['comes now the owner thereof'] }),
   [
     {
       message: 'The phrase "comes now" is archaic.',
