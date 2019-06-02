@@ -1,3 +1,7 @@
+# commonform-archaic
+
+annotate [Common Forms](https://www.npmjs.com/package/commonform-validate) containing archaism
+
 ```javascript
 var archaic = require('commonform-archaic')
 var assert = require('assert')
